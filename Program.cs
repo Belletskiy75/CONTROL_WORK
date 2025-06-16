@@ -22,6 +22,16 @@ class Program
                 count++;
         }
    
+        string[] result = new string[count];
+        int index = 0;
 
+        for (int i = 0; i < n; i++)
+        {
+            if (source[i].Length <= 3)
+            {
+                result[index] = source[i];
+                index++;
+            }
+        }
 
 
