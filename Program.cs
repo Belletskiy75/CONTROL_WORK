@@ -14,8 +14,14 @@ class Program
         {
             source[i] = Console.ReadLine();
         }
-    }
-}
+    
+        int count = 0;
+        for (int i = 0; i < n; i++)
+        {
+            if (source[i].Length <= 3)
+                count++;
+        }
+   
 
 
 
