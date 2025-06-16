@@ -34,4 +34,13 @@ class Program
             }
         }
 
+        Console.WriteLine("\nСтроки длиной <= 3 символов:");
+        Console.Write("[ ");
+        foreach (var str in result)
+        {
+            Console.Write($"\"{str}\" ");
+        }
+        Console.WriteLine("]");
+    }
+}
 
